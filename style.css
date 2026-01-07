@@ -1,11 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    border: 1px solid blue;
-    border-radius: 4px;
-    height: 70px;
+    padding: 8px;
     background-image: linear-gradient(to right, #0d47a1, #1976d2);
     color: white;
     display: flex;
     align-items: center;
+
+    h3 {
+        margin-left: 20px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
 }
 
 .button {
@@ -69,4 +81,12 @@ li {
     height: 50px;
     background-color: gray;
     text-align: center;
+}
+
+.idk {
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
