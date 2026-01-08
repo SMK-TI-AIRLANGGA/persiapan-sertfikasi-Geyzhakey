@@ -17,6 +17,7 @@ body {
     width: 420px;
     background-image: linear-gradient(to right, #0d47a1, #1976d2);
     color: white;
+    border-radius: 6px;
     padding: 30px 40px;
 }
 
@@ -94,5 +95,11 @@ label {
 }
 
 .back {
-    
+    text-align: end;
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }

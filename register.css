@@ -18,6 +18,7 @@ body {
     background-image: linear-gradient(to right, #0d47a1, #1976d2);
     color: white;
     padding: 30px 40px;
+    border-radius: 6px;
 }
 
 .container h2 {
@@ -91,4 +92,14 @@ label {
     font-size: 16px;
     color: #333;
     font-weight: 600;
+}
+
+.back {
+    text-align: end;
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }
